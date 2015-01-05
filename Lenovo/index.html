@@ -1,0 +1,570 @@
+<!--网页布局有三个黑框，由于比较难实现，时间原因，下次完善，望老师先看javascript-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>联想中国(Lenovo China)</title>
+	<link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="head_top body_son">
+				<ul class="head_top_left fleft">
+					<li>
+						<a href="javascript:void(0)">
+							<img src="img/home.jpg" alt="."/>
+							设置为首页
+						</a>
+						<span>|</span>
+					</li>
+					<li>
+						<a href="javascript:void(0)">收藏</a><!--此处有收藏函数-->
+						<span>|</span>
+					</li>
+					<li>
+						<a target="_blank" href="http://weibo.com/lenovo">
+							<img src="img/sina.jpg">
+							成为粉丝
+                        </a>
+					</li>
+				</ul>
+				<ul class="head_top_right fright">
+					<li>
+						<a href="https://passport.lenovo.com/wauthen/login?lenovoid.action=uilogin&amp;lenovoid.realm=www.lenovo.com.cn&amp;lenovoid.uinfo=username&amp;lenovoid.ctx=&amp;lenovoid.cb=http://www.lenovo.com.cn&amp;lenovoid.source=browser:www.lenovo.com.cn&amp;intcmp=lenovoID_log">登录</a>
+						<span></span>
+						<a href="https://passport.lenovo.com/wauthen/register.jsp?idtype=&amp;lang=&amp;lenovoid.action=&amp;lenovoid.realm=www.lenovo.com.cn&amp;lenovoid.lang=&amp;lenovoid.source=browser:www.lenovo.com.cn&amp;lenovoid.uinfo=username&amp;lenovoid.ctx=&amp;lenovoid.cb=http://www.lenovo.com.cn&amp;lenovoid.vp=&amp;display=&amp;intcmp=lenovoID_reg">注册</a>
+						<span>|</span>
+					</li>
+					<li>
+						<a target="_blank" href="http://appserver.lenovo.com.cn/LenovoMap/LenovoMap_Direct.aspx">销售网点</a>
+						<span>|</span>
+					</li>
+					<li>
+						<a target="_blank" href="http://support1.lenovo.com.cn/lenovo/wsi/station/servicestation/default.aspx">服务网点</a>
+					</li>
+				</ul>
+			</div>
+			<div class="head_bot body_son construction">
+				<div class="h_bot_logo fleft">
+					<a href="http://www.lenovo.com.cn">
+						<img src="img/lenovologo.jpg"  alt="联想标志">
+					</a>
+					<a href="javascript:void(0)" class="en">
+						English&nbsp; &gt;
+					</a>
+				</div>
+				<div class="h_bot_search fleft">
+					<ul class="search">
+						<li class="fleft">
+							<input type="text" class="searchbox">
+						</li>
+						<li class="searchpic fleft">
+							<a href="#" target="_blank"><!--有个搜索函数-->
+								<img src="img/searchlogo.jpg" alt="搜索"/>
+							</a>
+						</li>
+					</ul>
+					<ul class="keywords">
+						<li class="fleft">
+							<a target="_blank" href="http://appserver.lenovo.com.cn/Lenovo_lepadSeries_List.aspx?CategoryCode=A21B07C10">
+								YOGA平板2
+							</a>
+							<span>|</span>
+						</li>
+						<li class="fleft">
+							<a target="_blank" href="http://appserver.lenovo.com.cn/Lenovo_Series_List.aspx?CategoryCode=A03B07C17">
+								YOGA 3 PRO
+							</a>
+							<span>|</span>
+						</li>
+						<li class="fleft">
+							<a target="_blank" href="http://appserver.lenovo.com.cn/Lenovo_Brand_List.aspx?CategoryID=43">联想小新
+							</a>
+							<span>|</span>
+						</li>
+						<li class="fleft">
+							<a target="_blank" href="http://appserver.lenovo.com.cn/Lenovo_Product_Detail.aspx?CategoryCode=A26B02&amp;gdsid=A2600021876">智能电视S9
+							</a>
+							<span>|</span>
+						</li>
+						<li class="fleft">
+							<a target="_blank" href="http://appserver.lenovo.com.cn/Lenovo_Mobile_Series_List.aspx?CategoryCode=A25B07">
+								VIBE系列
+							</a>
+							<span>|</span>
+						</li>
+						<li class="fleft">
+							<a target="_blank" href="http://robot.lenovo.com.cn/lenovo/?intcmp=H325">
+								在线客服
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="h_bot_thpad fright">
+					<a href="http://www.thinkworld.com.cn/" target="_blank">
+						<img src="img/thinkPad.jpg" alt="Thinkpad官网"/>
+						<span>ThinkPad官网</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--此处有个div,里边放着脚本，好像是语言框-->
+		<div class="nav body_son">
+			<div class="nav_son construction">
+				<ul class="navcontent fleft">
+					<li class="fleft">
+						<a href="http://www.lenovo.com.cn/" target="_blank">
+							首页
+						</a>
+					</li>
+					<li class="fleft">
+						<a href="javascript:void(0);">
+							个人及家用产品
+						</a>
+					</li>
+					<li class="fleft">
+						<a href="javascript:void(0);">
+							商用产品及解决方案
+						</a>
+					</li>
+					<li class="fleft">
+						<a href="javascript:void(0);">
+							应用商店
+						</a>
+					</li>
+					<li class="fleft">
+						<a href="javascript:void(0);">
+							专业服务与支持
+						</a>
+					</li>
+					<li class="fleft">
+						<a target="_blank" href="http://shop.lenovo.com.cn/">
+							网上商城
+						</a>
+					</li>
+					<li class="fleft">
+						<a target="_blank" href="http://appserver.lenovo.com.cn/ActivityCenter/ongoing.html">
+							最新活动
+						</a>
+					</li>
+					<li class="fleft">
+						<a target="_blank" href="http://ideaclub.lenovo.com.cn/club/index.php?intcmp=lenovo_fans">
+							社区
+						</a>
+					</li>
+				</ul>
+				<ul class="navcon_right fright">
+					<li class="construction">
+						<span class="fleft">订购热线:</span>
+						<span class="fleft">4008222008</span>
+					</li>
+				</ul>
+			</div>
+			<!--此处有个二级列表，鼠标放上下拉，没实现-->
+		</div>
+		<div class="banner body_son construction">
+			<div class="banner_left" id="banleft">
+				<ul class="banner_left_img" id="slide"><!--高度没撑起来-->
+					<li style="display:list-item">
+						<a target="_blank" href="http://www.lenovomobile.com/imodel-cn/zh/%E6%89%93%E5%BC%80%E7%9B%AE%E5%BD%95/%E6%89%8B%E6%9C%BA/VIBE%E7%B3%BB%E5%88%97/VIBE-X2-%E7%A4%BC%E5%8C%85%E7%BB%84%E5%90%88/p/x2_dianyuan_shell_a?intcmp=H20141215_1 ">
+							<img src="img/banner_img1.jpg" alt="VIBE X2"/>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="http://shop.lenovo.com.cn/promotion/1212?intcmp=H20141211_2">
+							<img src="img/banner_img2.jpg" alt="出色服务"/>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="http://serviceshop.lenovo.com.cn/Activity/yb/index.html?gw&amp;intcmp=H20141215_3 ">
+							<img src="img/banner_img3.jpg" alt="ThinkPad"/>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="http://www.thinkworldshop.com.cn/mall/details/id/1547.html?intcmp=H20141215_4">
+							<img src="img/banner_img4.jpg" alt="YOGA"/>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="http://robot.lenovo.com.cn/lenovo/?intcmp=H20141202_5">
+							<img src="img/banner_img5.jpg" alt="智能服务"/>
+						</a>
+					</li>
+				</ul>
+				<ul class="banner_left_dot" id="banled">
+					<li onclick="clickjump(0)"></li>
+					<li onclick="clickjump(1)"></li>
+					<li onclick="clickjump(2)"></li>
+					<li onclick="clickjump(3)"></li>
+					<li onclick="clickjump(4)"></li>
+				</ul>
+				<span class="banner_arr arr_prev">
+					<a href="javascript:void(0)">
+						<img src="img/arr_pre.jpg" alt="后退箭">
+					</a>
+				</span>
+				<span class="banner_arr arr_next">
+                    <a class="arr_next fright" href="javascript:void(0)">
+                    	<img src="img/arr_next.jpg" alt="前进箭">
+                    </a> 
+				</span>
+			</div>
+			<div class="banner_right fright">
+				<p>
+					<a target="_blank" href="http://appserver.lenovo.com.cn/lenovo_product_Detail.aspx?gdsid=A2600021876&amp;intcmp=L20141215_3">
+						<!--功能待添加-->
+						<img alt="智能电视" src="img/banner_ri_img3.jpg">
+					</a>
+				</p>
+				<p>
+					<a target="_blank" href="http://www.lenovomobile.com/imodel-cn/zh/%E6%89%93%E5%BC%80%E7%9B%AE%E5%BD%95/%E6%89%8B%E6%9C%BA/VIBE%E7%B3%BB%E5%88%97/S90-%E5%B0%8F%E7%AC%8B%E5%B0%96%E7%A7%BB%E5%8A%A8%E7%89%88/p/s90?intcmp=L20141215_2">
+						<!--功能待添加-->
+						<img alt="S90" src="img/banner_ri_img2.jpg">
+					</a>
+				</p>
+				<p>
+					<a target="_blank" href="http://www.thinkworldshop.com.cn/mall/details/id/1547.html?intcmp=L20141201_1">
+						<!--功能待添加-->
+						<img alt="YOGA 平板2" src="img/banner_ri_img1.jpg">
+					</a>
+				</p>
+			</div>
+		</div>
+		<div class="floor body_son construction">
+			<div class="new_product fleft">
+					<ul class="new_pro_top fleft">
+						<li>
+							<h3>新品推荐</h3>
+						</li>
+						<li>
+							<a target="_blank" href="http://appserver.lenovo.com.cn/Lenovo_lepadSeries_List.aspx?CategoryCode=A21B07C10&amp;intcmp=NP20141010_8">YOGA平板2
+							</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a target="_blank" href="http://appserver.lenovo.com.cn/Lenovo_Series_List.aspx?CategoryCode=A03B07C17&amp;intcmp=NP20140730_9">YOGA 3 PRO
+							</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a target="_blank" href="http://www.thinkworldshop.com.cn/mall/details/id/1404.html?intcmp=NP20141010_10">
+								ThinkPad10
+							</a>
+							<span>|</span>
+						</li>
+						<li>
+							<a target="_blank" href="http://appserver.lenovo.com.cn/Lenovo_Series_List.aspx?CategoryCode=A26B02&amp;intcmp=NP20141010_10">智能电视S9
+							</a>
+							<span>|</span>
+						</li>
+						<li class="fright">
+							<a class="fright" target="_blank"  href="http://appserver.lenovo.com.cn/Lenovo_product_home.html?intcmp=NP20140730_12">
+								联想全部产品&gt;
+							</a>
+						</li>
+					</ul>
+					<ul class="new_pro_con construction">
+						<li class="fleft">
+							<p class="fleft">
+								<a target="_blank" href="http://www.thinkworldshop.com.cn/mall/details/id/1794.html?intcmp=NP20141215_1">
+									<img alt="ThinkPad" src="img/new_pro_img1.jpg"/>
+								</a>
+							</p>
+							<p class="fleft">
+								<a target="_blank" href="http://shop.lenovo.com.cn/promotion/I1000?intcmp=NP20141211_2"><img alt="小新出色版" src="img/new_pro_img2.jpg"/>
+								</a>
+							</p>
+							<p class="fright">
+								<a target="_blank" href="http://shop.lenovo.com.cn/product-32171.html?intcmp=NP20141211_3">
+									<img alt="Erazer" src="img/new_pro_img3.jpg"/>
+								</a>
+							</p>
+						</li>
+						<li class="fright">
+							<p class="fright">
+								<a target="_blank" href="http://appserver.lenovo.com.cn/Lenovo_Product_Detail.aspx?CategoryCode=A02B30C07&amp;gdsid=A0200020552&amp;intcmp=NP20141208_4">
+									<img alt="ThinkCentre" src="img/new_pro_img4.jpg">
+								</a>
+							</p>
+							<p class="fleft">
+								<a target="_blank" href="http://www.thinkworldshop.com.cn/mall/details/id/1754.html?intcmp=NP20141215_5">
+									<img alt="ThinkPad X240s" src="img/new_pro_img7.jpg">
+								</a>
+							</p>
+							<p class="fright">
+								<a target="_blank" href="http://www.lenovomobile.com/imodel-cn/zh/%E6%89%93%E5%BC%80%E7%9B%AE%E5%BD%95/%E6%89%8B%E6%9C%BA/VIBE%E7%B3%BB%E5%88%97/S898t%2B-%E9%87%91%E8%89%B2/p/s898t?intcmp=NP20141215_6">
+								 <img alt="S8" src="img/new_pro_img5.jpg">
+								</a>
+							</p>
+							<p class="fright">
+								<a target="_blank" href="http://appserver.lenovo.com.cn/Lenovo_lepadSeries_List.aspx?CategoryCode=A21B07C01&amp;intcmp=NP20141210_7">
+							    <img alt="联想小S" src="img/new_pro_img6.jpg">
+								</a>
+							</p>
+						</li>
+					</ul>
+			</div>
+			<div class="bbs_list fright">
+				<ul class="bbs_top fright">
+					<li class="bbs_title construction">
+						<a class="fleft" target="_blank" href="http://ideaclub.lenovo.com.cn/club/index.php?intcmp=lenovo_fans">
+							<img alt="社区" src="img/bbs_img1.jpg">
+                        </a>
+                        <a href="http://ideaclub.lenovo.com.cn/club/index.php?intcmp=lenovo_fans"  class="fright" target="_blank">
+                        	进入社区&gt;
+                        </a>
+					</li>
+					<li class="bbs_img">
+						<a target="_blank" href="http://ideaclub.lenovo.com.cn/YT2/?intcmp=JYH20141211_1">
+							<img alt="5款配件" src="img/bbs_img2.jpg">
+						</a>
+					</li>
+				</ul>
+				<ul class="undone"></ul><!--用框架暂时不做了--><!--用框架暂时不做了-->
+			</div>
+			<div class="cloud fleft">
+				<ul class="cloud_top">
+					<li>
+						<h3>云计算产品</h3>
+					</li>
+					<li>
+						<a target="_blank" href="http://yun.lenovo.com/yun.html">云平台</a>
+						<span>|</span>
+					</li>
+					<li>
+						<a target="_blank" href="http://yun.lenovo.com/drive_248_info.html">企业网盘</a>
+						<span>|</span>
+					</li>
+					<li>
+						<a target="_blank" href="http://yun.lenovo.com/storage.html">云存储系统</a>
+						<span>|</span>
+					</li>
+					<li>
+						<a target="_blank" href="http://yun.lenovo.com/item_96.html">渠道加盟</a>
+					</li>
+				</ul>
+				<ul class="cloud_img" id="slide1">
+					<li>
+						<a target="_blank" href="http://yun.lenovo.com/drive_248_info.html?intcmp=CLOUD20141215_4 ">
+							<img alt="环保云" src="img/cloud_img1.jpg">
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="http://yun.lenovo.com/drive_248_info.html?intcmp=CLOUD20141215_5">
+							<img alt="企业网盘" src="img/cloud_img2.jpg">
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="http://yun.lenovo.com/drive_248_info.html?intcmp=CLOUD20141215_6">
+							<img alt="企业网盘" src="img/cloud_img3.jpg">
+						</a>
+					</li>
+				</ul>
+				<div class="cloud_arr" id="clarr">
+					<span class="cloud_pre">
+						<img src="img/cloud_prev.png" alt="前进箭">
+					</span>
+					<span class="cloud_next">
+						<img src="img/cloud_next.png" alt="后退箭">
+					</span>
+				</div>
+			</div>
+            <div class="service fleft">
+				 <div class="ser_top">
+					 <h3>服务与支持</h3>
+				 </div>
+				 <ul class="ser_list construction">
+				 	<li class=" nav_ser fleft">
+				 		<p class="nav_ser1">
+				 			<img src="img/ser_img1.jpg" alt="服务之星">
+				 		</p>
+				 		<p class="nav_ser2">
+				 			<img src="img/ser_img2.jpg" alt="驱动下载">
+				 		</p>
+				 		<p class="nav_ser3">
+				 			<img src="img/ser_img3.jpg" alt="微信">
+				 		</p>
+				 	</li>
+				 	<li class="remar fleft">
+				 		<div class="ser_star fleft">
+				 			<ul class="fleft">
+				 				<li>
+				 					<a target="_blank" href="http://dianping.lenovo.com.cn">
+				 						<img alt="服务之星" src="img/ser_img1_1.jpg">
+				 					</a>
+				 				</li>
+				 				<li class="comment fleft">
+				 					<p class="bold">用户评论：<p>
+				 					<p>
+				 						<a href="http://dianping.lenovo.com.cn">
+				 							<span>
+				 								<img src="img/ser_img1_2.jpg">
+				 							</span>
+				 							<span class="remark">超级耐心，好脾气，专业性很强，方案也很周密。
+				 							</span>
+				 							<span>
+				 								<img src="img/ser_img1_3.jpg">
+				 							</span>
+				 						</a>
+				 					</p>
+				 					<p class="remark">
+				 						<a href="http://dianping.lenovo.com.cn">来自服务明星点评
+				 						</a>
+				 					</p>
+				 				</li>
+				 			</ul>
+				 		</div>
+				 		<!--此处还有两个div分别弹出，javascript没写-->
+				 	</li>
+				 </ul>
+		    </div>
+		    <div class="map fright">
+		    	<ul>
+		    		<li class="fleft">
+		    			<a target="_blank" href="http://appserver.lenovo.com.cn/LenovoMap/LenovoMap_Direct.aspx?intcmp=MAP20140730_1">
+                        <h3>销售网点查询</h3><!--有javascript-->
+                        </a>
+		    		</li>
+		    		<li class="fright">
+		    			<a target="_blank" href="http://support1.lenovo.com.cn/lenovo/wsi/station/servicestation/default.aspx?intcmp=MAP20140730_2">
+                        <h3>服务网点查询</h3><!--有javascript-->
+                        </a>
+		    		</li>
+		    	</ul>
+		    	<div class="undone1 fright"></div><!--有个地图，太麻烦，放弃-->
+		    </div>
+		    <div class="community fleft">
+		    	<div class="comm_top fleft">
+		    		<h3>“想+”</h3>
+		    		<span>社区</span>
+		    	</div>
+		    	<ul class="comm_list fleft">
+		    		<li class="fleft">
+		    			<p class="nav_comm1">
+		    				<img src="img/comm_img1.jpg" alt="实用晒单">
+		    			</p>
+		    			<p class="nav_comm2">
+		    				<img src="img/comm_img2.jpg" alt="邋遢教授">
+		    			</p>
+		    			<p class="nav_comm3">
+		    				<img src="img/comm_img3.jpg" alt="积分商城">
+		    			</p>
+		    			<p class="nav_comm4">
+		    				<img src="img/comm_img4.jpg" alt="精英">
+		    			</p>
+		    		</li>
+		    		<li class="fright">
+		    			<div class="comm_try">
+		    				<a target="_blank" href="http://ideaclub.lenovo.com.cn/forum/forum.php?mod=viewthread&amp;tid=41860&amp;extra=page%3D1&amp;intcmp=FANS20141211_1">
+		    					<img alt="试用晒单" src="img/comm_img1_1.jpg">
+		    				</a>
+		    			</div>
+		    			<!--还有三个div，鼠标上侧拉菜单，没做-->
+		    		</li>
+		    	</ul>
+		    </div>
+		    <div class="news fleft">
+		    	<div><h3>新闻消息</h3></div>
+                <ul class="news_title construction">
+                	<li>
+                		<a target="_blank" href="http://appserver.lenovo.com.cn/About/news_center.aspx">
+                			<h3>新闻动态</h3>
+                		</a>
+                	</li>
+                	<li>
+                		<a target="_blank" href="http://appserver.lenovo.com.cn/About/Video/Default.aspx">
+                			<h3>最新视频</h3>
+                		</a>
+                    </li>
+                    <li>
+                    	<a target="_blank" href="http://csr.lenovo.com.cn">
+                    		<h3>公益活动</h3>
+                    	</a>
+                    </li>
+                </ul>
+                <ul class="news_com">
+                	<li>
+                		<ul class="news_com_nav">
+                			<li>
+                				<span class="right_dot">.</span>
+                				<a target="_blank" href="http://appserver.lenovo.com.cn/About/DetailPage.aspx?news_id=4417">联想云存储亮相2014中国存储峰会
+                				</a>
+                				<span class="fright">2014-12-17</span>
+                			</li>
+                			<li>
+                				<span class="right_dot">.</span>
+                				<a target="_blank" href="http://appserver.lenovo.com.cn/About/DetailPage.aspx?news_id=4416">联想乐基金荣获“中国天使投资机构十强”奖项
+                				</a>
+                				<span class="fright">2014-12-19</span>
+                			</li>
+                			<li>
+                				<span class="right_dot">.</span>
+                				<a target="_blank" href="http://appserver.lenovo.com.cn/About/DetailPage.aspx?news_id=4415">
+                					联想乐基金投资中科柏诚 布局互联网金融
+                				</a>
+                				<span class="fright">2014-12-17</span>
+                			</li>
+                			<li>
+                				<span class="right_dot">.</span>
+                				<a target="_blank" href="http://appserver.lenovo.com.cn/About/DetailPage.aspx?news_id=4407">
+                					联想云存储登陆CERNET大会正式进军教育行业
+                				</a>
+                				<span class="fright">2014-12-17</span>
+                			</li>
+                			<li>
+                				<span class="right_dot">.</span>
+                				<a target="_blank" href="http://appserver.lenovo.com.cn/About/DetailPage.aspx?news_id=4408">联想云存储系统获“2014中国IT产业创新产品奖”
+                				</a>
+                				<span class="fright">2014-12-17</span>
+                			</li>
+                			<li>
+                				<span class="right_dot">.</span>
+                				<a target="_blank" href="http://appserver.lenovo.com.cn/About/DetailPage.aspx?news_id=4406">联想公布2014/15财年第二季度业绩</a>
+                				<span class="fright">2014-12-17</span>
+                			</li>
+                		</ul>
+                	</li>
+                	<li></li>
+                	<li></li>
+                </ul>
+		    </div>
+		    <div class="microblog fleft">
+		    	<div><h3>官微信息</h3></div>
+		    	<div class="undone2"></div>
+		    </div>
+		</div>
+		<div class="footer body_son construction">
+			<div>
+				<span>版权所有：1998-2014 联想集团</span>
+				<a target="_blank" href="http://appserver.lenovo.com.cn/Public/public_bottom/legal.shtml">
+					法律公告
+				</a>
+				<span>|</span>
+				<a target="_blank" href="http://appserver.lenovo.com.cn/Public/public_bottom/privacy.shtml">隐私保护
+				</a> 
+				<span>|</span>
+				<a target="_blank" href="http://www.miibeian.gov.cn/">联想官网京ICP备11035381
+				</a>
+			</div>
+				<div class="last_img">
+					<img src="img/footer_img1.jpg" alt="诚信"/>
+				</div>
+			<div class="footer_right fright">
+                <a target="_blank" href="http://appserver.lenovo.com.cn/lenovoSurvey/doSurvey.aspx?surveyID=37">满意度调查</a>
+                <span>|</span>
+                <a target="_blank" href="http://appserver.lenovo.com.cn/Public/public_bottom/contact.shtml">联系我们</a>
+                <span>|</span>
+                <a target="_blank" href="http://www.lenovocareers.com/">工作机会</a>
+                <span>|</span>
+                <a target="_blank" href="http://appserver.lenovo.com.cn/partner/search.aspx">合作伙伴认证</a>
+                <span>|</span>
+                <a target="_blank" href="http://appserver.lenovo.com.cn/About/">关于联想</a>
+            </li>
+			</div>
+		</div>
+	</div>
+	<script src="main.js"></script>
+	<script src="main1.js"></script>
+</body>
+</html>
