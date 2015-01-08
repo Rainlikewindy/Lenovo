@@ -1,8 +1,12 @@
 /*脚本集结号*/
-var clock,m=0;
-var dot=document.getElementById("banled").getElementsByTagName("li");
-var img=document.getElementById("slide").getElementsByTagName("li");
-var arr=document.getElementById("banleft").getElementsByTagName("span");
+window.onload=function(){
+	slide();
+}
+function slide(){
+	var clock,m=0;
+    var dot=document.getElementById("banled").getElementsByTagName("li");
+    var img=document.getElementById("slide").getElementsByTagName("li");
+    var arr=document.getElementById("banleft").getElementsByTagName("span");
 /*1.动态获得类名*/
 var giveclass=function (){
     for(var i=0;i<img.length;i++){
@@ -104,15 +108,21 @@ hiddenoremove();
 showorstop();
 dotshow();
 /*4.点击点跳转图片*/
-var clickjump=function(r){
-	clearInterval(clock);
-	for(var i=0;i<dot.length;i++){
-		img[i].style.display="";
-		dot[i].style.backgroundColor="";
+var clickjump=function(){
+    for(var i=0;i<dot.length;i++){
+	dot[i].id=i;
+	dot[i].onclick=function(){
+		clearInterval(clock);
+		for(var j=0;j<dot.length;j++){
+		img[j].style.display="";
+		dot[j].style.backgroundColor="";
 	}
-	m=r;
-	move();
+		m=this.id;
+		move();
+	}
+  }
 }
+clickjump();
 /*5.点击箭头移动*/
 var foreorafter=function (){
 	var fore_arr=arr[0];
@@ -166,3 +176,4 @@ var aftermove=function(){
     move();
 }
 foreorafter();
+}
